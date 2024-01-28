@@ -1,0 +1,194 @@
+.navbar li{
+  display: inline-block;
+  padding: 15px;
+  margin-right: 10px;
+  
+}
+
+a:-webkit-any-link{
+  color: aliceblue;
+  text-decoration: none;
+  font-weight:500;
+}
+.Login{
+  padding-top: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginPage{
+  padding:0%;
+  margin:0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SignUp{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.inputBox{
+  display: block;
+  margin: 12px;
+  padding: 7px;
+  width: 300px;
+  border: 2px solid blue;
+  border-radius: 7px;
+}
+.btn-signup{
+  margin: 25px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(65, 0, 204);
+  border: 1px solid ;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  color: antiquewhite;
+  box-shadow: inset;
+}
+.btnpd{
+  margin-right: 15px;
+  padding: 0px;
+  width: 70px;
+  background-color: rgb(204, 0, 0);
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(232, 232, 232);
+  box-shadow: inset;
+  height: 20px;
+}
+
+.btnpu{
+  margin: 0px;
+  padding: 0px;
+  width: 70px;
+  background-color: rgb(65, 0, 204);
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  color: beige;
+  box-shadow: inset;
+  height: 20px;
+  
+}
+.nav ul{
+  padding: 5px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  color: blue;
+}
+
+
+.navbar{
+  margin-top: 0%;
+  background-color: skyblue;
+  color: blue;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navRight{
+  text-align: right;
+}
+.logout li{
+  text-align: right;
+  color:red;
+}
+
+.logo{
+  width: 45px;
+  padding: 3px;
+  height: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.invalid{
+    color: red;
+    margin-top: -15px;
+    display: block;
+    margin-left: 20px;
+
+}
+
+.ProductList{
+  text-align: center;
+  
+}
+.ProductList ul li{
+  display: inline-block;
+  border: 1px solid rgb(125, 125, 149);
+  padding: 5px;
+  width: 190px;
+  font-weight: 500;
+  height:30px;
+}
+.ProductList ul {
+  margin: 0px;
+  height: 40px;
+}
+.searchBox{
+  width: 300px;
+  height: 35px;
+  min-height: 15px;
+  min-width: 30px;
+  margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  border: 4px solid blue;      
+  border-radius: 5px;       
+  font-size:medium;   
+}
